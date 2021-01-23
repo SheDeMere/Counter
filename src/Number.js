@@ -1,11 +1,15 @@
-import React from 'react';
 
 function Number(props) {
     return (
-        <div className={'number'}>
-            0
+        <div>
+            <div className={'number'}>
+                {props.counter}
+            </div>
         </div>
     );
 }
 
 export default Number;
+
+
+
